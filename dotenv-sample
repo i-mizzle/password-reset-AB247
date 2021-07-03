@@ -1,0 +1,5 @@
+PORT=5500
+HOST=localhost
+DB_URI=mongodb://localhost:27017/ab247
+PRIVATE_KEY=ab_234_test_private_key
+ACCESS_TOKEN_TTL=24h
