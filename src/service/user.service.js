@@ -57,8 +57,6 @@ function createAccessToken({user, tokenFor}) {
             { expiresIn: ttl }
         );
 
-        console.log('DECODED+++>', jwt.decode(accessToken))
-
         return {
             error: false,
             errorType: '',
